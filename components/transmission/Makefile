@@ -36,7 +36,6 @@ include $(WS_TOP)/make-rules/ips.mk
 PATH=/usr/gnu/bin:/usr/bin
 
 CONFIGURE_OPTIONS+=	--program-prefix=""
-CONFIGURE_OPTIONS+=	--with-gtk=2
 
 # common targets
 build:		$(BUILD_32)
